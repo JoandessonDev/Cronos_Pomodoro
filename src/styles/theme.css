@@ -9,13 +9,12 @@
   --gray-800: #181f2e;
   --gray-900: #0a0f1a;
 
-  --primary-light: #4de7b7;
-  --primary: #0da170;
-  --primary-dark: #065f46;
+  --primary-light: #d8b4fe;
+  --primary: #8b5cf6;       
+  --primary-dark: #5b21b6; 
 
-  --link-color: #10b981;
-  --link-hover: #0b8a60;
-
+  --link-color: #a855f7;    
+  --link-hover: #7e22ce;   
   --success: #22c55e;
   --warning: #eab308;
   --error: #991b1b;
