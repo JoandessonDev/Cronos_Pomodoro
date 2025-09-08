@@ -1,0 +1,30 @@
+.defaultbutton {
+    border: none;
+    background: var(--primary);
+    color: var(--text-over--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24rem;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    margin: 4.8rem 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+}
+.defaultbutton svg{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.defaultbutton:focus {
+
+}
+
+.defaultbutton:hover {
+    filter: brightness(80%);
+}
+
+.defaultbutton:disabled {
+
+}
