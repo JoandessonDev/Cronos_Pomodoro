@@ -28,13 +28,13 @@ export function App() {
             />
           </div>
           <div className="formRow">
-            <p>asdfa dfasfasfasf asdf asdf asdf sdfa sdf </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
           <div className="formRow">
             <Cycles />
           </div>
           <div className="formRow">
-            <DefaultButton icon={<PlayCircleIcon />} color="red" />
+            <DefaultButton icon={<PlayCircleIcon />} />
           </div>
 
           <div className="formRow"></div>

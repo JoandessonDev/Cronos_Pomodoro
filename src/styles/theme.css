@@ -1,4 +1,5 @@
 :root {
+  /* Tema Dark (default) */
   --gray-100: #e6e9f0;
   --gray-200: #cdd3e1;
   --gray-300: #aab3cc;
@@ -10,11 +11,11 @@
   --gray-900: #0a0f1a;
 
   --primary-light: #d8b4fe;
-  --primary: #8b5cf6;       
-  --primary-dark: #5b21b6; 
+  --primary: #8b5cf6;
+  --primary-dark: #5b21b6;
 
-  --link-color: #a855f7;    
-  --link-hover: #7e22ce;   
+  --link-color: #a855f7;
+  --link-hover: #7e22ce;
   --success: #22c55e;
   --warning: #eab308;
   --error: #991b1b;
@@ -33,4 +34,42 @@
 
   --disabled: #555f7d;
   --text-disabled: #aab3cc;
+}
+
+:root[data-theme='light'] {
+  /* Tema Light (inversão do dark) */
+  --gray-100: #0a0f1a;
+  --gray-200: #181f2e;
+  --gray-300: #272f43;
+  --gray-400: #363d56;
+  --gray-500: #454f6a;
+  --gray-600: #555f7d;
+  --gray-700: #aab3cc;
+  --gray-800: #cdd3e1;
+  --gray-900: #e6e9f0;
+
+  --primary-light: #5b21b6;
+  --primary: #8b5cf6;
+  --primary-dark: #d8b4fe;
+
+  --link-color: #7e22ce;
+  --link-hover: #a855f7;
+  --success: #16a34a;
+  --warning: #ca8a04;
+  --error: #dc2626;
+  --info: #0284c7;
+
+  --text-over-primary: #e6e9f0;
+  --text-over-primary-dark: #0a0f1a;
+  --text-over-primary-light: #0a0f1a;
+  --text-over-success: #ffffff;
+  --text-over-warning: #0a0f1a;
+  --text-over-error: #ffffff;
+  --text-over-info: #ffffff;
+
+  --text-default: #0a0f1a;
+  --text-muted: #555f7d;
+
+  --disabled: #cdd3e1;
+  --text-disabled: #555f7d;
 }
