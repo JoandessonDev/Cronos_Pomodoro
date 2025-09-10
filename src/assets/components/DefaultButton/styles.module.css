@@ -17,14 +17,15 @@
     width: 3.2rem;
     height: 3.2rem;
 }
-.defaultbutton:focus {
-
-}
 
 .defaultbutton:hover {
     filter: brightness(80%);
 }
 
-.defaultbutton:disabled {
+.purple{
+    background-color: var(--primary);
+}
 
+.red{
+    background-color: var(--error);
 }

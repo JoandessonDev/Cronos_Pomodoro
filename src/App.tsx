@@ -8,37 +8,41 @@ import { DefaultInput } from "./assets/components/DefaultInput";
 import { Cycles } from "./assets/components/Cycles";
 import { DefaultButton } from "./assets/components/DefaultButton";
 import { PlayCircleIcon } from "lucide-react";
+import { Footer } from "./assets/components/Footer";
 
 export function App() {
   return (
-    <Container>
-      <Logo />
-      <Menu />
-      <CountDown />
-      <form className="form">
-        <div className="formRow">
-          <DefaultInput
-            id="myInput"
-            disabled
-            labelText="Task"
-            placeholder="Digite o nome da tarefa"
-            type="text"
-          />
-        </div>
-        <div className="formRow">
-          <p>asdfa dfasfasfasf asdf asdf asdf sdfa sdf </p>
-        </div>
-        <div className="formRow">
-          <Cycles />
-        </div>
-        <div className="formRow">
-          <DefaultButton icon={<PlayCircleIcon/>} />
-        </div>
+    <>
+      <Container>
+        <Logo />
+        <Menu />
+        <CountDown />
+        <form className="form">
+          <div className="formRow">
+            <DefaultInput
+              id="myInput"
+              disabled
+              labelText="Task"
+              placeholder="Digite o nome da tarefa"
+              type="text"
+            />
+          </div>
+          <div className="formRow">
+            <p>asdfa dfasfasfasf asdf asdf asdf sdfa sdf </p>
+          </div>
+          <div className="formRow">
+            <Cycles />
+          </div>
+          <div className="formRow">
+            <DefaultButton icon={<PlayCircleIcon />} color="red" />
+          </div>
 
-        <div className="formRow">
-          <button>enviar</button>
-        </div>
-      </form>
-    </Container>
+          <div className="formRow"></div>
+        </form>
+      </Container>
+      <Container>
+        <Footer/>
+      </Container>
+    </>
   );
 }
